@@ -14,7 +14,7 @@ public class MockChineseNameGeneratorTest {
         String s = MockChineseNameGenerator.generate();
         Assert.assertNotNull(s);
     }
-    @Test
+    //@Test
     public void testBatch(){
         for (int i = 0; i < 10000*1; i++) {
             System.out.println(MockChineseNameGenerator.generate());
