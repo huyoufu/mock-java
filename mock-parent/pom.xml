@@ -10,7 +10,7 @@
     <version>0.0.1</version>
     <modules>
         <module>mock-all</module>
-        <module>mock-examples</module>
+        <!--<module>mock-examples</module>-->
     </modules>
     <properties>
         <java.version>1.8</java.version>
